@@ -14,20 +14,25 @@ import utilities.testmodeller.TestModellerLogger;
 
 //https://btgmodel.cloud.testinsights.io/app/#!/model-engine/guid/9425dbd9-2222-48d0-8795-d0467db74518
 @Listeners(TestNGListener.class)
-@TestModellerSuite(id = 108, profileId = 100147)
+@TestModellerSuite(id = 109, profileId = 100147)
 public class lastmodel_DefaultProfile extends TestBase
 {
     
 
     
     @Test  (groups= {"last model","last model - Default Profile"})
-    @TestModellerPath(guid = "d21f8d38-8d29-4cd0-9add-cc205d89f2b7")
-    public void GoToUrlPositiveEnterUsernameNegativeEnterPasswordClickLoginunauthenticated()
+    @TestModellerPath(guid = "6fcb197d-508d-4f26-a339-ea2372e6b71d")
+    public void GoToUrlAssertUrlPositiveEnterUsernameNegativeEnterPasswordClickLoginunauthenticated()
     {
         
         pages.The_Internet _The_Internet = new pages.The_Internet(driver);
     TestModellerLogger.SetLastNodeGuid("359b5e75-5b57-4442-b771-dbe27c398416");
     _The_Internet.GoToUrl();
+    
+
+pages.ggrreegg _ggrreegg = new pages.ggrreegg(driver);
+    TestModellerLogger.SetLastNodeGuid("e0768903-d941-481b-ba99-8fc7e833c0e0");
+    _ggrreegg.AssertUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("a650a833-8f1e-4aaf-8df1-509601aa5495");
@@ -45,13 +50,18 @@ public class lastmodel_DefaultProfile extends TestBase
     }
 
     @Test  (groups= {"last model","last model - Default Profile"})
-    @TestModellerPath(guid = "780d2cee-babd-482f-a3e3-f8cc5958dea1")
-    public void GoToUrlPositiveEnterUsernameNegativeEnterPasswordClickLoginauthenticated()
+    @TestModellerPath(guid = "c45d942f-a21b-44a5-a7ea-d1448d540b98")
+    public void GoToUrlAssertUrlPositiveEnterUsernameNegativeEnterPasswordClickLoginauthenticated()
     {
         
         pages.The_Internet _The_Internet = new pages.The_Internet(driver);
     TestModellerLogger.SetLastNodeGuid("359b5e75-5b57-4442-b771-dbe27c398416");
     _The_Internet.GoToUrl();
+    
+
+pages.ggrreegg _ggrreegg = new pages.ggrreegg(driver);
+    TestModellerLogger.SetLastNodeGuid("e0768903-d941-481b-ba99-8fc7e833c0e0");
+    _ggrreegg.AssertUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("a650a833-8f1e-4aaf-8df1-509601aa5495");
@@ -69,13 +79,18 @@ public class lastmodel_DefaultProfile extends TestBase
     }
 
     @Test  (groups= {"last model","last model - Default Profile"})
-    @TestModellerPath(guid = "5dcaca65-0bdd-4949-be18-b60dd037e811")
-    public void GoToUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginunauthenticated()
+    @TestModellerPath(guid = "5a081d8d-5845-4610-ad27-2473fcc7df81")
+    public void GoToUrlAssertUrlPositiveEnterUsernamePositiveEnterPasswordClickLoginunauthenticated()
     {
         
         pages.The_Internet _The_Internet = new pages.The_Internet(driver);
     TestModellerLogger.SetLastNodeGuid("359b5e75-5b57-4442-b771-dbe27c398416");
     _The_Internet.GoToUrl();
+    
+
+pages.ggrreegg _ggrreegg = new pages.ggrreegg(driver);
+    TestModellerLogger.SetLastNodeGuid("e0768903-d941-481b-ba99-8fc7e833c0e0");
+    _ggrreegg.AssertUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("a650a833-8f1e-4aaf-8df1-509601aa5495");
@@ -93,13 +108,18 @@ public class lastmodel_DefaultProfile extends TestBase
     }
 
     @Test  (groups= {"last model","last model - Default Profile"})
-    @TestModellerPath(guid = "1514b197-0b3e-4e66-9823-ae391795399d")
-    public void GoToUrlNegativeEnterUsernameNegativeEnterPasswordClickLoginunauthenticated()
+    @TestModellerPath(guid = "c0e6bcc2-6143-4468-9cfe-0aa6fd495b6a")
+    public void GoToUrlAssertUrlNegativeEnterUsernameNegativeEnterPasswordClickLoginunauthenticated()
     {
         
         pages.The_Internet _The_Internet = new pages.The_Internet(driver);
     TestModellerLogger.SetLastNodeGuid("359b5e75-5b57-4442-b771-dbe27c398416");
     _The_Internet.GoToUrl();
+    
+
+pages.ggrreegg _ggrreegg = new pages.ggrreegg(driver);
+    TestModellerLogger.SetLastNodeGuid("e0768903-d941-481b-ba99-8fc7e833c0e0");
+    _ggrreegg.AssertUrl();
     
 
     TestModellerLogger.SetLastNodeGuid("01128dda-766f-410e-870b-f85c6aac7806");
